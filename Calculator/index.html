@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header id="header">Calculator</header>
+    <main class="container">
+        <div id="output">
+            <div id="text"></div>
+        </div>
+        <div id="ops">
+            <button class="op" onclick="whatOp('add')">+</button>
+            <button class="op" onclick="whatOp('sub')">-</button>
+            <button class="op" onclick="whatOp('div')">÷</button>
+            <button class="op" onclick="whatOp('mul')">x</button>
+        </div>
+        <div id="enter">
+            <button id="enter-btn">=</button>
+        </div>
+        <div id="nums">
+            <div class="row">
+                <button class="num" onclick="addToDisplay(1)">1</button>
+                <button class="num" onclick="addToDisplay(2)">2</button>
+                <button class="num" onclick="addToDisplay(3)">3</button>
+            </div>
+            <div class="row">
+                <button class="num" onclick="addToDisplay(4)">4</button>
+                <button class="num" onclick="addToDisplay(5)">5</button>
+                <button class="num" onclick="addToDisplay(6)">6</button>
+            </div>
+            <div class="row">
+                <button class="num" onclick="addToDisplay(7)">7</button>
+                <button class="num" onclick="addToDisplay(8)">8</button>
+                <button class="num" onclick="addToDisplay(9)">9</button>
+            </div>
+        </div>
+        <div id="bottom_row">
+            <button class="num" onclick="addToDisplay(0)">0</button>
+            <button class="num" id="dot">.</button>
+            <button class="num" id="clear">C</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

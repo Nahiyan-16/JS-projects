@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+}
+
+#header{
+    padding: 10px 0;
+    color: aliceblue;
+    font-size: 45px;
+    margin-top: 45px;
+    border: 3px solid rgb(115, 43, 43);
+    width: 100%;
+    text-align: center;
+}
+
+#output{
+    background-color: aliceblue;
+    margin: 20px auto;
+    height: 80px;
+    width: 90%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#text{
+    color: rgb(41, 19, 19);
+    font-size: 70px;
+}
+
+.container{
+    background-color: rgb(38, 38, 38);
+    border: 2px solid rgb(115, 43, 43);
+    border-radius: 15px;
+    width: 400px;
+    margin: 60px auto;
+    height: 650px;
+    
+}
+
+#ops{
+    margin: 20px;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.op{
+    font-size: 50px;
+    padding: 10px 10px;
+    width: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: antiquewhite;
+    color: rgb(115, 43, 43);
+    cursor: pointer;
+}
+
+#enter{
+    width: 20%;
+    height: 370px;
+    margin: 0 20px 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#enter-btn{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(30, 122, 167);
+    color: rgb(253, 255, 255);
+    font-size: 50px;
+    padding: 150px 25px;
+    cursor: pointer;
+}
+
+#enter-btn:hover{
+    background-color: rgb(36, 143, 196);
+}
+
+#nums{
+    margin: -392px 0 0 20px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 310px;
+}
+
+.num{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius:50%; 
+    background-color: rgb(255, 255, 255);
+    color: rgb(112, 46, 46);
+    margin-right: 8px;
+    font-size: 35px;
+}
+
+#bottom_row{
+    margin: 10px 0px 0px 30px;
+}
+
+button:hover{
+    background-color: lightpink;
+}
+
+button:active{
+    color: brown;
+}
+
+#clear{
+    background-color: rgb(109, 28, 28);
+    color: rgb(251, 246, 239);
+}
+
+#clear:hover{
+    background-color: rgb(149, 39, 39);
+}
+
+#clear:active{
+    color: rgb(218, 201, 179);
+}
