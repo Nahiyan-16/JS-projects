@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Color Guesser</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="header_text">THE GREAT</div>
+        <div id="color">RGB(0, 0, 0)</div>
+        <div class="header_text">GUESSING GAME</div>
+        <div id="numCorrect">0</div>
+        <div id="buttons">
+            <button class="mode" id="new_colors" onclick="makeNewColor()">NEW COLORS</button>
+            <div>
+                <button class="mode" id="easy">EASY</button>
+                <button class="mode" id="hard">HARD</button>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div>        
+            <button class="color_selector" id="c1" onclick="checkColor(this)"></button>
+            <button class="color_selector" id="c2" onclick="checkColor(this)"></button>
+            <button class="color_selector" id="c3" onclick="checkColor(this)"></button>
+        </div>
+        <div>          
+            <button class="color_selector" id="c4" onclick="checkColor(this)"></button>
+            <button class="color_selector" id="c5" onclick="checkColor(this)"></button>
+            <button class="color_selector" id="c6" onclick="checkColor(this)"></button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
